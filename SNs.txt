@@ -1,0 +1,5 @@
+Board Serial Numbers
+0x30F33900 - A5X HILT
+0x31033901 - Dicio Sensor Interconnect
+0x31033902 - Dicio Sensor Board
+0x31033903 - Pelement Burn-In/Plateau

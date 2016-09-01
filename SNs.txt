@@ -5,3 +5,4 @@ Board Serial Numbers
 0x31033903 - Pelement Burn-In/Plateau Rev 0/1.
 0x10433900 - Dicio Sensor Board Rev 1. [0xD1C10001]
 0x10533900 - MSP<->Scio interface
+0x10933900 - Velocity Robotics Dual Encoder Rev 0.

@@ -8,3 +8,5 @@ Board Serial Numbers
 0x10933900 - Velocity DRK-1 (Dual Encoding) Rev 0.
 0x10933901 - Velocity 620C (Power / Motor) Rev 0.
 0x10933902 - Velocity DRK-1 (Dual Encoding) Rev 1.
+0x10B33900 - Velocity 620C (Power / Motor / Sensor) Rev 1.
+0x10B33901 - Velocity DRK-1 (Dual Encoding) Rev 2.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -97,6 +97,18 @@
 <text x="-2.54" y="12.065" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="10.4775" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="GPTS203211B">
+<wire x1="0" y1="0" x2="0" y2="13" width="0.127" layer="21"/>
+<wire x1="0" y1="13" x2="13" y2="13" width="0.127" layer="21"/>
+<wire x1="13" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="1" x="13" y="3.85" drill="1.2"/>
+<pad name="2" x="13" y="9.15" drill="1.2"/>
+<wire x1="13" y1="13" x2="13" y2="10.3" width="0.127" layer="21"/>
+<wire x1="13" y1="8" x2="13" y2="5" width="0.127" layer="21"/>
+<wire x1="13" y1="2.7" x2="13" y2="0" width="0.127" layer="21"/>
+<text x="2" y="11" size="1.27" layer="25">&gt;NAME</text>
+<text x="2" y="9" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIP8">
@@ -163,6 +175,13 @@
 <text x="-5.08" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
+<symbol name="SPST">
+<pin name="1" x="-2.54" y="0" visible="pad" length="short"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<circle x="0" y="0" radius="0.359209375" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.359209375" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIP8" prefix="SW">
@@ -188,6 +207,22 @@
 <connect gate="G$1" pin="7" pad="P$7"/>
 <connect gate="G$1" pin="8" pad="P$8"/>
 <connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS203211B" prefix="SW">
+<gates>
+<gate name="G$1" symbol="SPST" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPTS203211B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

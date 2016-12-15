@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -119,6 +129,83 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
+<package name="SSOP16">
+<description>&lt;b&gt;GN Package 16-Lead Plastic SSOP (Narrow .150 Inch)&lt;/b&gt;&lt;p&gt;
+Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
+<wire x1="2.4" y1="1.825" x2="2.4" y2="-1.375" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.375" x2="2.4" y2="-1.825" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.825" x2="-2.4" y2="-1.825" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.825" x2="-2.4" y2="-1.375" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.375" x2="-2.4" y2="1.825" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.825" x2="2.4" y2="1.825" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.375" x2="-2.4" y2="-1.375" width="0.2032" layer="21"/>
+<smd name="2" x="-1.5875" y="-2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="7" x="1.5875" y="-2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="1" x="-2.2225" y="-2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.9525" y="-2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-0.3175" y="-2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="8" x="2.2225" y="-2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.9525" y="-2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="5" x="0.3175" y="-2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="9" x="1.5875" y="2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="10" x="-1.5875" y="2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="11" x="2.2225" y="2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="12" x="0.9525" y="2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="13" x="0.3175" y="2.6" dx="0.419" dy="1.143" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="14" x="-2.2225" y="2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="15" x="-0.9525" y="2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<smd name="16" x="-0.3175" y="2.6" dx="0.419" dy="1.143" layer="1" stop="no" cream="no"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.375" y1="-3.1" x2="-2.075" y2="-1.9" layer="51"/>
+<rectangle x1="-2.4638" y1="-3.2258" x2="-1.9812" y2="-1.9812" layer="29"/>
+<rectangle x1="-2.413" y1="-3.1496" x2="-2.032" y2="-2.0574" layer="31"/>
+<rectangle x1="-1.74" y1="-3.1" x2="-1.44" y2="-1.9" layer="51"/>
+<rectangle x1="-1.8288" y1="-3.2258" x2="-1.3462" y2="-1.9812" layer="29"/>
+<rectangle x1="-1.778" y1="-3.1496" x2="-1.397" y2="-2.0574" layer="31"/>
+<rectangle x1="-1.105" y1="-3.1" x2="-0.805" y2="-1.9" layer="51"/>
+<rectangle x1="-1.1938" y1="-3.2258" x2="-0.7112" y2="-1.9812" layer="29"/>
+<rectangle x1="-1.143" y1="-3.1496" x2="-0.762" y2="-2.0574" layer="31"/>
+<rectangle x1="-0.47" y1="-3.1" x2="-0.17" y2="-1.9" layer="51"/>
+<rectangle x1="-0.5588" y1="-3.2258" x2="-0.0762" y2="-1.9812" layer="29"/>
+<rectangle x1="-0.508" y1="-3.1496" x2="-0.127" y2="-2.0574" layer="31"/>
+<rectangle x1="0.165" y1="-3.1" x2="0.465" y2="-1.9" layer="51"/>
+<rectangle x1="0.0762" y1="-3.2258" x2="0.5588" y2="-1.9812" layer="29"/>
+<rectangle x1="0.127" y1="-3.1496" x2="0.508" y2="-2.0574" layer="31"/>
+<rectangle x1="0.8" y1="-3.1" x2="1.1" y2="-1.9" layer="51"/>
+<rectangle x1="0.7112" y1="-3.2258" x2="1.1938" y2="-1.9812" layer="29"/>
+<rectangle x1="0.762" y1="-3.1496" x2="1.143" y2="-2.0574" layer="31"/>
+<rectangle x1="1.435" y1="-3.1" x2="1.735" y2="-1.9" layer="51"/>
+<rectangle x1="1.3462" y1="-3.2258" x2="1.8288" y2="-1.9812" layer="29"/>
+<rectangle x1="1.397" y1="-3.1496" x2="1.778" y2="-2.0574" layer="31"/>
+<rectangle x1="2.07" y1="-3.1" x2="2.37" y2="-1.9" layer="51"/>
+<rectangle x1="1.9812" y1="-3.2258" x2="2.4638" y2="-1.9812" layer="29"/>
+<rectangle x1="2.032" y1="-3.1496" x2="2.413" y2="-2.0574" layer="31"/>
+<rectangle x1="2.075" y1="1.9" x2="2.375" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="1.9812" y1="1.9812" x2="2.4638" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="2.032" y1="2.0574" x2="2.413" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="1.44" y1="1.9" x2="1.74" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="1.3462" y1="1.9812" x2="1.8288" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="1.397" y1="2.0574" x2="1.778" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="0.805" y1="1.9" x2="1.105" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="0.7112" y1="1.9812" x2="1.1938" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="0.762" y1="2.0574" x2="1.143" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="0.17" y1="1.9" x2="0.47" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="0.0762" y1="1.9812" x2="0.5588" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="0.127" y1="2.0574" x2="0.508" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="-0.465" y1="1.9" x2="-0.165" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="-0.5588" y1="1.9812" x2="-0.0762" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="-0.508" y1="2.0574" x2="-0.127" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="-1.1" y1="1.9" x2="-0.8" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="-1.1938" y1="1.9812" x2="-0.7112" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="-1.143" y1="2.0574" x2="-0.762" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="-1.735" y1="1.9" x2="-1.435" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="-1.8288" y1="1.9812" x2="-1.3462" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="-1.778" y1="2.0574" x2="-1.397" y2="3.1496" layer="31" rot="R180"/>
+<rectangle x1="-2.37" y1="1.9" x2="-2.07" y2="3.1" layer="51" rot="R180"/>
+<rectangle x1="-2.4638" y1="1.9812" x2="-1.9812" y2="3.2258" layer="29" rot="R180"/>
+<rectangle x1="-2.413" y1="2.0574" x2="-2.032" y2="3.1496" layer="31" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -190,6 +277,37 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <connect gate="B" pin="+IN" pad="5"/>
 <connect gate="B" pin="-IN" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC2052" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMPPWR" x="2.54" y="-2.54"/>
+<gate name="B" symbol="OPAMP" x="2.54" y="-17.78"/>
+<gate name="C" symbol="OPAMP" x="2.54" y="-30.48"/>
+<gate name="D" symbol="OPAMP" x="2.54" y="-43.18"/>
+</gates>
+<devices>
+<device name="" package="SSOP16">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="4"/>
+<connect gate="A" pin="V-" pad="13"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="C" pin="+IN" pad="12"/>
+<connect gate="C" pin="-IN" pad="11"/>
+<connect gate="C" pin="OUT" pad="10"/>
+<connect gate="D" pin="+IN" pad="14"/>
+<connect gate="D" pin="-IN" pad="15"/>
+<connect gate="D" pin="OUT" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>

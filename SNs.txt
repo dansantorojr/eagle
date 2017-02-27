@@ -12,4 +12,8 @@ Board Serial Numbers
 0x10B33901 - Velocity DRK-1 (Dual Encoding) Rev 2.
 0x10C33900 - Velocity DRK-1 (Dual Encoding) Rev 3.
 0x10C33901 - Velocity 620C (Power / Motor / Sensor) Rev 2.
-0x10C33902 - MSA P-Control 3 Prototype
+0x11133900 - MSA P-Control 3.1 Prototype
+0X11133901 - MSA P-Control 3.2 Protoytpe
+0x11233900 - MSA P-Control 3.3 Prototype
+0x11233904 - Velocity DRK-1 (Dual Encoding) Rev 4. (Should have been 0x11233901)
+0x11233905 - MSA P-Control 3.4 Prototype

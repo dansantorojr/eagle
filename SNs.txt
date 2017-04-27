@@ -18,3 +18,4 @@ Board Serial Numbers
 0x11233904 - Velocity DRK-1 (Dual Encoding) Rev 4. (Should have been 0x11233901)
 0x11233905 - MSA P-Control 3.4 Prototype
 0x11433900 - Pelement Burn-In Rev 3.
+0x11433901 - Pelement Burn-In / Plateau Rev 2.
